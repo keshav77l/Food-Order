@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Food Ordering</title>
+</head>
+<style>
+body {
+  background-image: url('https://orderfood.com.my/wp-content/uploads/2021/03/Welcome-to-Order-food-side-image.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<form action="bill.jsp">
+<center>
+<pre>
+<p style="color:black"><font size="8"><mark>Name <input type="text" name="t1"><br></font></mark>
+<font size="6"><mark>Appetizers </font><input type="checkbox" name="app" value="Samosas"><mark>Vegetable Samosas Rs.100</mark><br>
+<input type="checkbox" name="app" value="Dosas"><mark>Dosas Rs.100</mark><br>
+<input type="checkbox" name="app" value="Pakoras"><mark>Onion Pakoras Rs.100</mark><br>
+<input type="checkbox" name="app" value="Channa Chat"><mark>Channa Chat Rs.100</mark><br></p></mark>
+<p style="color:brown"><font size="6"><mark>Vegetable Dishes </font><input type="checkbox" name="dish" value="Kadhai Paneer"><mark>Kadhai Paneer Rs.200</mark><br>
+<input type="checkbox" name="dish" value="Paalak Paneer"><mark>Paalak Paneer Rs.200</mark><br>
+<input type="checkbox" name="dish" value="Chole Bhature"><mark>Chole Bhature Rs.200</mark><br>
+<input type="checkbox" name="dish" value="Dum aaloo"><mark>Dum Aaloo Rs.200</mark><br></p></mark>
+<p style="color:red"><font size="6"><mark>Deserts </font><input type="checkbox" name="des" value="Kheer"><mark>Kheer Rs.70</mark><br>
+<input type="checkbox" name="des" value="Kulfi"><mark>Kulfi Rs.70</mark><br>
+<input type="checkbox" name="des" value="Gulab Jamun"><mark>Gulab Jamun Rs.70</mark><br></p></mark>
+<font size="6"><mark>Drinks </font><input type="checkbox" name="drink" value="Cold Drink"><mark>Cold Drinks Rs.50</mark><br></p>
+<input type="checkbox" name="drink" value="Cold Coffee"><mark>Cold Coffee Rs.50</mark><br>
+<input type="checkbox" name="drink" value="Masala Tea"><mark>Masala Tea Rs.50</mark><br>
+<input type="checkbox" name="drink" value="Oreo Milkshake"><mark>Oreo Milkshake Rs.50</mark><br></mark>
+<div class="popup" onclick="myFunction()"><font size="10"><mark>Order Now!</font></mark>
+  <span class="popuptext" id="myPopup"><p style="color:lime"><mark>Order Anything Over Rs.1000 and Get 10% Off!</p></mark></span>
+</div>
+<div class="custom-select" style="width:200px;">
+<select name="pt">
+<option value>Select Mode of Payment:</option>
+<option value>Online Payment</option>
+<option value>Cash on Delivery</option>
+</select><br>
+
+<input type="submit" value="Order"> 
+</pre>
+</center>
+</form>
+</body>
+</html>
